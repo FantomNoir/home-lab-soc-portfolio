@@ -45,3 +45,29 @@ Skills Practiced:
 - Subnet identification
 - Network discovery
 - Basic network troubleshooting
+
+## Lab 2 - Network Connectivity Testing
+
+### Objective
+Validate local connectivity, external IP reachability,
+DNS resolution, and network routing.
+
+### Tools Used
+- ping
+- nslookup
+- traceroute
+
+### Test Results
+- Local gateway: 4/4 replies, 0% loss, 6.254 ms average.
+- External IP: 4/4 replies, 0% loss, 20.578 ms average.
+- DNS: Successfully resolved google.com.
+- Traceroute: Destination responded at hop 12.
+
+### Findings
+Local and external connectivity were successful.
+DNS resolution worked. Some intermediate traceroute
+probes timed out, but the destination responded.
+
+### SOC Relevance
+These tools help investigate endpoint connectivity,
+DNS failures, and routing problems during triage.
