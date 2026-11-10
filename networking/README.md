@@ -27,3 +27,21 @@ Document practical networking exercises and configurations.
 
 ## Notes
 This folder will contain networking notes, diagrams, configurations, and lab results.
+
+## Lab 1 - Local Network Discovery
+
+Objective: Identify my local IP address, subnet mask,
+default gateway, and DNS configuration.
+
+Tools Used:
+- macOS Terminal
+- ifconfig
+- ipconfig
+- route
+- scutil
+
+Skills Practiced:
+- IPv4 addressing
+- Subnet identification
+- Network discovery
+- Basic network troubleshooting
